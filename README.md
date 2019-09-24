@@ -2,6 +2,11 @@
 
 Twitter APIを使って「zozo yahoo」の検索結果をjsonファイルに出力
 
+## 必要要件
+ 
+- Twitter API の登録
+- アクセストークンの取得
+
 ## インストール
  
 ```
