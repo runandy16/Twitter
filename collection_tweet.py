@@ -46,8 +46,8 @@ def gettwitterdata(keyword,ddir):
 if __name__ == '__main__':
     #つぶやきを格納するリスト
     tweets_data =[]
-    #検索キーワードを入力  ※リツイートを除外する場合 「キーワード -RT 」と入力
-    keyword = f'Yahoo zozo since:2019-09-12 -filter:links lang:ja -RT OR @99999'
+    keyword = f'Yahoo zozo since:2019-09-12 until:2019-09-13 -filter:links lang:ja -RT OR @99999'
+    
     #出力ファイル名を入力(相対パス or 絶対パス)
     ddir = '/Twitter'
     
